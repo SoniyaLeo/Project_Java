@@ -17,7 +17,13 @@
             for (var i = 0; i < 10; i++) {
                 console.log(i);
             }
-            
+            var arr = [1, i, "base"]
+            var roboticArmParts = ["Base", "Shoulder Joint", "Upper Arm", "Elbow Joint", "Forearm", "Wrist Joint", "End Effector", "Gripper", "Servo Motors", "Hydraulic Actuators", "Sensors", "Control Board"];
+             //To access and display the parts
+            console.log("Robotic Arm Components:");
+            for (let i = 0; i < roboticArmParts.length; i++) {
+                console.log(`${i + 1}. ${roboticArmParts[i]}`);
+            }
         }
     </script>
 </body>
